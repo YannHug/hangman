@@ -143,7 +143,7 @@ func drawState(g *Game, guess string) {
 	case "alreadyGuessed":
 		fmt.Printf("Letter '%s' was alread used\n", guess)
 	case "badGuess":
-		fmt.Printf("Bad guess, '%s' is not in the word", guess)
+		fmt.Printf("Bad guess, '%s' is not in the word\n", guess)
 	case "lost":
 		fmt.Print("You lost :( The word was : ")
 		drawLetters(g.Letters)

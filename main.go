@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
+	"hangman/dictionary"
 	"hangman/hangman"
-	"hangman/hangman/dictionary"
 	"os"
 )
 
